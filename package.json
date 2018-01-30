@@ -1,6 +1,6 @@
 {
 	"name": "alerted",
-	"version": "1.2.0",
+	"version": "1.5.0",
 	"description": "Minimalist toast notifications",
 	"license": "MIT",
 	"repository": "herber/alerted",
@@ -21,7 +21,8 @@
 		"dev": "microbundle watch --output dist"
 	},
 	"files": [
-		"index.js"
+		"index.js",
+		"dist"
 	],
 	"keywords": [
 		"toast",
