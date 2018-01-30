@@ -18,7 +18,7 @@
 	"scripts": {
 		"test": "formatted",
 		"build": "microbundle --output dist",
-    "dev": "microbundle watch --output dist"
+		"dev": "microbundle watch --output dist"
 	},
 	"files": [
 		"index.js"
