@@ -4,9 +4,9 @@
 	"description": "Minimalist toast notifications",
 	"license": "MIT",
 	"repository": "herber/alerted",
-	"main": "dist/vxv.js",
-	"module": "dist/vxv.m.js",
-	"browser": "dist/vxv.umd.js",
+	"main": "dist/alerted.js",
+	"module": "dist/alerted.m.js",
+	"browser": "dist/alerted.umd.js",
 	"author": {
 		"name": "Tobias Herber",
 		"email": "tobihrbr@gmail.com",
