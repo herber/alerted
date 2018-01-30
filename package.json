@@ -1,0 +1,41 @@
+{
+	"name": "alerted",
+	"version": "1.1.0",
+	"description": "Minimalist toast notifications",
+	"license": "MIT",
+	"repository": "herber/alerted",
+	"main": "dist/vxv.js",
+	"module": "dist/vxv.m.js",
+	"browser": "dist/vxv.umd.js",
+	"author": {
+		"name": "Tobias Herber",
+		"email": "tobihrbr@gmail.com",
+		"url": "tobihrbr.com"
+	},
+	"engines": {
+		"node": ">=8"
+	},
+	"scripts": {
+		"test": "formatted",
+		"build": "microbundle --output dist",
+    "dev": "microbundle watch --output dist"
+	},
+	"files": [
+		"index.js"
+	],
+	"keywords": [
+		"toast",
+		"alert",
+		"modal",
+		"notify",
+		"notification"
+	],
+	"dependencies": {
+		"bel": "^5.1.5",
+		"vxv": "^2.1.1"
+	},
+	"devDependencies": {
+		"formatted": "^1.0.0",
+		"microbundle": "^0.4.3"
+	}
+}
