@@ -56,4 +56,12 @@ module.exports = opts => {
   setTimeout(() => {
     element.remove();
   }, opts.time + 300);
+
+  return () => {
+    element.style.opacity = 0;
+
+    setTimeout(() => {
+      element.remove();
+    }, 300);
+  };
 };
